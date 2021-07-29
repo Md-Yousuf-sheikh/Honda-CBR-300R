@@ -191,7 +191,10 @@ header{
 li.nav-item{
     padding-left: 2rem;
 }
+button.navbar-toggler:focus{
+  box-shadow: none;
 
+}
 
 /* 
 =============================
@@ -244,9 +247,10 @@ li.nav-item{
 | | Section4-Best Bike 
 =============================
 */
-.best-bike-strong{
+.best-sel-bicke ol strong{
   color: #df1282;
 }
+
 
 /* 
 =============================
