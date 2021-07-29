@@ -4,7 +4,9 @@
 
 
 @media (max-width:1024px) {
-
+    .carousel-item img{
+        width: 300px !important;
+    }
 
 }
 
@@ -12,7 +14,9 @@
 
 @media (max-width:991px) {
 
-
+    .carousel-item img{
+        width: 300px !important;
+    }
 }
 
 /* ================ screen 767px ===================*/
@@ -32,6 +36,10 @@
         font-weight: 700;
         margin-bottom: 2rem;
         margin-top: 2rem;
+    }
+
+    .carousel-item img{
+        width: 300px !important;
     }
 
 }

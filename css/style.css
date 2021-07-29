@@ -251,6 +251,9 @@ button.navbar-toggler:focus{
   color: #df1282;
 }
 
+.carousel-item img{
+  margin: 0 auto;
+}
 
 /* 
 =============================
@@ -258,9 +261,6 @@ button.navbar-toggler:focus{
 =============================
 */
 
-.carousel-item img{
-  margin: 0 auto;
-}
 
 /* 
 =============================
@@ -270,17 +270,21 @@ button.navbar-toggler:focus{
 
 .title-befor-dash::after{
     content: '';
-    width: 100px;
+    margin-top: 10px;
+    width: 150px;
     height: 5px;
     display: flex;
-    margin-left: 120px; 
+    margin-left: 70px; 
     background: var(--btn-bg);
 }
+
 
 /* 
 =============================
 | | footer Section
 =============================
 */
-
+footer{
+  background: #2764BA;
+}
 
