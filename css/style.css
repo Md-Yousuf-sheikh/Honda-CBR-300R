@@ -1,0 +1,282 @@
+/* 
+=============================
+| | Font  family
+=============================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+/* 
+=============================
+| | Basic Setup
+=============================
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  font-family: "Titillium Web", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+
+*,
+*::after,
+*::before{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus{
+  outline: none;
+  outline-offset: 0;
+}
+
+a,
+a:hover{
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--praymery-color);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* ==== Veribal deifned ==== */
+
+:root{
+  --praymery-color:red;
+  --text-gray:#ddd;
+  --text-whait:#fff;
+  --main-color: #317EEB;
+  --hover-color: #2764BA;
+  --body-color: #E0E0E0;
+  --box-color: white;
+  --orang-color:orange;
+  --header-bg:#264653;
+  --btn-bg:#E76F51;
+  --text-color:#23A6F0;
+  --arial-font: Arial, Helvetica, sans-serif ;
+  --Poppins-font: 'Poppins', sans-serif;
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body{
+  font-family:var(--arial-font);
+  font-size: 100%; 
+  font-weight: 400;
+  color: var(--text-whait);
+
+}
+
+/* 
+=============================
+| | Custome Scrollbar
+=============================
+*/
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background:linear-gradient(rgb(173, 61, 61), rgb(48, 124, 86) ,#df1282 );
+
+
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(rgb(248, 248, 248), rgb(7, 236, 122) ,#E76F51 );
+  border-radius: 50px 0px 50px 0px ;
+}
+
+/* 
+=============================
+| | Custome CSS Classes
+=============================
+*/
+
+/* font famly  */
+.Poppins_font{
+  font-family:var(--Poppins-font) ;
+}
+
+/* bg-color */
+
+.bg-color{
+  background: var(--header-bg);
+}
+.btn-color{
+  color: var(--btn-bg);
+}
+
+/* btn  */
+
+.btn_honda {
+  background: var(--btn-bg);
+  color: var(--text-whait);
+  outline-offset: none;
+  border: 2px solid var(--btn-bg);
+
+}
+.btn_honda2 {
+  background: transparent;
+  color: var(--text-whait);
+  border: 2px solid var(--btn-bg);
+}
+
+.btn_honda:hover {
+  background: transparent;
+  color: var(--text-whait);
+
+}
+
+.btn_honda2:hover {
+  background: var(--btn-bg);
+  color: var(--text-whait);
+  outline-offset: none;
+
+}
+
+.filtre_img {
+  filter: grayscale(100%);
+}
+
+
+/* 
+=============================
+| | Custome CSS Desing
+=============================
+*/
+
+h1  {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: var(--text-gray);
+}
+
+
+/* 
+=============================
+| | Header Section
+=============================
+*/
+header{
+  background: var(--header-bg) ;
+  
+}
+
+/* navgition  */
+
+li.nav-item{
+    padding-left: 2rem;
+}
+
+
+/* 
+=============================
+| |  Section1-Fetured
+=============================
+*/
+
+/* 
+=============================
+| |  Section2-Clients
+=============================
+*/
+
+.clint_card_img{
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  border: 2px solid #264653;
+}
+.client-info-card{
+  box-shadow: 5px 0px 5px #aaaaaa;
+  border-radius: 5px;
+
+}
+.client-info-card:hover {
+
+  box-shadow: 5px 0px 5px #ffffff;
+
+}
+
+/* 
+=============================
+| | Section3-Question
+=============================
+*/
+
+.accordion-button:not(.collapsed) {
+  color: rgba(0, 0, 0, 0.867);
+  background-color: #ffff;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+
+}
+
+.accordion-button:focus {
+  box-shadow:none;
+
+}
+/* 
+=============================
+| | Section4-Best Bike 
+=============================
+*/
+.best-bike-strong{
+  color: #df1282;
+}
+
+/* 
+=============================
+| | Section5-Prosising 
+=============================
+*/
+
+.carousel-item img{
+  margin: 0 auto;
+}
+
+/* 
+=============================
+| | Section6-Contact 
+=============================
+*/
+
+.title-befor-dash::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    display: flex;
+    margin-left: 120px; 
+    background: var(--btn-bg);
+}
+
+/* 
+=============================
+| | footer Section
+=============================
+*/
+
+

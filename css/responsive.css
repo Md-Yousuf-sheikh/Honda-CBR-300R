@@ -1,0 +1,59 @@
+/* Rsponsive css writing start  */
+
+/* ================ screen 1024px ===================*/
+
+
+@media (max-width:1024px) {
+
+
+}
+
+/* ================ screen 991px ===================*/
+
+@media (max-width:991px) {
+
+
+}
+
+/* ================ screen 767px ===================*/
+
+@media (max-width:767px) {
+
+    li.nav-item{
+        padding-left: 0;
+    }
+    .nav-bar-btn{
+        margin-left: 10px;
+    }
+
+    /* section  */
+    h1  {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+}
+
+/* ================ screen 426px ===================*/
+
+@media  (max-width:426px) {
+
+
+
+}
+
+/* ================ screen 330px ===================*/
+
+@media (max-width:330px) {
+    li.nav-item{
+        padding-left:0;
+    }
+    .nav-bar-btn{
+        margin-left: 10px;
+    }
+    /* section  */
+
+
+}
